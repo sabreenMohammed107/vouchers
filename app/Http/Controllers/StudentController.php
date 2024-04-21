@@ -34,13 +34,13 @@ class StudentController extends Controller
     public function home()
     {
         $durations = Duration::get();
-        $courses = Course::limit(11)->get();
+        $courses = Course::get();
         return view('home.register', compact('durations', 'courses'));
     }
     public function index()
     {
         $durations = Duration::get();
-        $courses = Course::limit(11)->get();
+        $courses = Course::get();
         return view('home.register', compact('durations', 'courses'));
     }
 

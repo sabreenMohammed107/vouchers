@@ -73,7 +73,7 @@
     <div class="container" style="direction: rtl;width: 686px !important">
         <div style="width:100%;">
             <div style="display: inline-block;width:40%">
-                <img src="{{ asset('public/webasset/images/senior logo_fin.jpg')}}" style="width:250px;hieght:250px">
+                <img src="{{ asset('public/webasset/images/logo.jpg')}}" style="width:250px;hieght:250px">
 
             </div>
 
