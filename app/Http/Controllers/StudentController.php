@@ -150,7 +150,7 @@ class StudentController extends Controller
     {
         $id_number = $request->input('id_number');
         $students = Student_data::where('id_number', $id_number)->get();
-        dd($students);
+       
         foreach ($students as $student) {
 
             $coupon = Coupon_data::where('coupon_status', 2)->where('student_id', $student->id)->first();
