@@ -55,7 +55,7 @@ body {
   <p style="color:#73AD21; font-size:20px;margin-top:0"><b>على البطاقة رقم : </b><span  id="coponidnumber">{{$randomCoupon->student->id_number ?? ''}}</span></p>
   <p style="color:#73AD21; font-size:20px;margin-top:0"><b>على موبايل رقم : </b><span  id="couponMobile">{{$randomCoupon->student->mobile ?? ''}}</span></p>
   <p style="color:#73AD21; font-size:20px;margin-top:0"><b> تاريخ إنتهاء الكوبون : </b><span  id="couponDate">@if($randomCoupon->expired_date)
-        {{ date_format($randomCoupon->expired_date, "d-m-Y") }}
+  {{ date_format(date_create($randomCoupon->expired_date), "d-m-Y") }}
      @endif</span></p>
 
   <hr>
