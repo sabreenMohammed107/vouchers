@@ -87,9 +87,9 @@
             <input type="hidden" value="{{csrf_token()}}" id="catToken" />
             <h2 style="text-align:center;margin-bottom: 10px;">البحث عن كوبون الخصم</h2>
             <div class="form-group-1">
-                <input type="text" name="id_number" id="id_number" placeholder=" ID المعهد المسجل " required />
+                <input type="text" name="id_number" id="id_number" placeholder="رقم البطاقة المسجل" required />
 
-                <span id="id_numbererror" style="color:red;background:#ccc;text-align:center;margin-bottom:20px;display:none">يجب ان تدخل ID المعهد </span>
+                <span id="id_numbererror" style="color:red;background:#ccc;text-align:center;margin-bottom:20px;display:none">يجب ان تدخل رقم البطاقة  </span>
                 <span id="rrorResult" style="color:red;background:#ccc;text-align:center;margin-bottom:20px;display:none">هذا الرقم غير مسجل /او لايوجد لديه  كوبونات مفعلة</span>
 
 

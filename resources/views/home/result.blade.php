@@ -5,7 +5,7 @@
   <p style="color:#73AD21; font-size:20px;margin-top:0"><b>رقم كود الخصم : </b><span id="couponCode">{{$coupon->coupon_code}}.<span>
 </p>
   <p style="color:red; font-size:20px;margin-top:0"><b>قيمة الخصم : </b><span  id="couponPer">{{$coupon->discount_per}}</span> %.</p>
- <p style="color:#73AD21; font-size:20px;margin-top:0"><b>على ID المعهد رقم : </b><span  id="coponidnumber">{{$coupon->student->id_number ?? ''}}</span></p>
+ <p style="color:#73AD21; font-size:20px;margin-top:0"><b>على البطاقة  رقم : </b><span  id="coponidnumber">{{$coupon->student->id_number ?? ''}}</span></p>
  <p style="color:#73AD21; font-size:20px;margin-top:0"><b>على موبايل رقم : </b><span  id="couponMobile">{{$coupon->student->mobile ?? ''}}</span></p>
 
  

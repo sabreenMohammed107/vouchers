@@ -113,9 +113,9 @@
                 <input type="text" name="mobile" value="{{ old('mobile') }}" id="phone"   placeholder="رقم التليفون (يفضل رقم الواتساب)" required />
                 <!-- <input type="text" name="job" id="job" placeholder="الوظيفه" /> -->
 
-                <input type="text" name="id_number" value="{{ old('id_number') }}" id="id_number"   placeholder="ID المعهد"  required />
+                <input type="text" name="id_number" value="{{ old('id_number') }}" id="id_number"   placeholder="رقم البطاقة "  required />
 
-                <input type="text" name="education" id="education" placeholder="الفرقة" />
+                <input type="text" name="education" id="education" placeholder="الكلية / الجامعة" />
                 <!-- <input type="text" name="city" id="city" placeholder="المحافظة /الدولة" /> -->
 
             </div>
@@ -147,7 +147,7 @@
             </div>
 
             <div class="form-check">
-            <label for="agree-term" class="label-agree-term"><b>ملحوظة : </b> يتم ربط الكوبون ب ID المعهد الخاص بالطالب ولا يمكن استخدامه مع كوبون اخر طالما الكوبون الحالى نشط للإستخدام - وكل كوبون خصم يكون له تاريخ إنتهاء يجب ألا يتخطاه ويتم الغاءه تلقائيا
+            <label for="agree-term" class="label-agree-term"><b>ملحوظة : </b> يتم ربط الكوبون ب رقم البطاقة الخاص بالطالب ولا يمكن استخدامه مع كوبون اخر طالما الكوبون الحالى نشط للإستخدام - وكل كوبون خصم يكون له تاريخ إنتهاء يجب ألا يتخطاه ويتم الغاءه تلقائيا
                 </label>
             </div>
             <div class="form-submit">
