@@ -56,9 +56,7 @@ body {
   <p style="color:#73AD21; font-size:20px;margin-top:0"><b>على موبايل رقم : </b><span  id="couponMobile">{{$randomCoupon->student->mobile ?? ''}}</span></p>
   <p style="color:#73AD21; font-size:20px;margin-top:0"><b> تاريخ إنتهاء الكوبون : </b><span  id="couponDate">@if($randomCoupon->expired_date)
         {{ date_format($randomCoupon->expired_date, "d-m-Y") }}
-    @else
-        No expiration date set
-    @endif</span></p>
+     @endif</span></p>
 
   <hr>
   <p style="color:#73AD21; font-size:20px"><b>  خصم : </b>{{$randomCoupon->discount_per}} %.</p>
