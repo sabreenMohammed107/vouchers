@@ -7,7 +7,11 @@
   <p style="color:red; font-size:20px;margin-top:0"><b>قيمة الخصم : </b><span  id="couponPer">{{$coupon->discount_per}}</span> %.</p>
  <p style="color:#73AD21; font-size:20px;margin-top:0"><b>على البطاقة  رقم : </b><span  id="coponidnumber">{{$coupon->student->id_number ?? ''}}</span></p>
  <p style="color:#73AD21; font-size:20px;margin-top:0"><b>على موبايل رقم : </b><span  id="couponMobile">{{$coupon->student->mobile ?? ''}}</span></p>
- <p style="color:#73AD21; font-size:20px;margin-top:0"><b> تاريخ إنتهاء الكوبون : </b><span  id="couponDate">{{ date_format($coupon->expired_date,"d-m-Y")  }}</span></p>
+ <p style="color:#73AD21; font-size:20px;margin-top:0"><b> تاريخ إنتهاء الكوبون : </b><span  id="couponDate">@if($coupon->expired_date)
+        {{ date_format($coupon->expired_date, "d-m-Y") }}
+    @else
+        No expiration date set
+    @endif</span></p>
 
  
 		</div></div>
