@@ -19,7 +19,7 @@ Route::get('/', [StudentController::class, 'home']);
 
 Route::resource('/home', StudentController::class);
 Route::get('/search', [StudentController::class, 'search'])->name('search');
-Route::post('/fetch-result', [StudentController::class, 'searchResult'])->name('fetch-result');
+Route::get('/fetch-result', [StudentController::class, 'searchResult'])->name('fetch-result');
 
 
 

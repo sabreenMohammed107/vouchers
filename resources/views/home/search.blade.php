@@ -117,7 +117,7 @@
                     } else {
                         $('#id_numbererror').css('display', 'none');
                         $.ajax({
-                            type: 'POST',
+                            type: 'GET',
                             url: "{{route('fetch-result')}}",
                             data: {
                                 _token: token,
