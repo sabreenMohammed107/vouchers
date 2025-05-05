@@ -39,22 +39,22 @@
         font-size: 2em;
        }
     .resSpan{
-            
+
             float: left;
             padding-left: 20px;
             font-size: 18px;
-        
+
                 }
     @media only screen and (max-width: 600px) {
         .respo {
             margin: 10px 0 0 10px !important;
         }
         .resSpan{
-            
+
             float: left;
             padding-left: 20px;
             font-size: 10px;
-        
+
                 }
                .faSize{
                 font-size: 1em;
@@ -151,13 +151,13 @@
                 </label>
             </div>
             <div class="form-submit">
-           <input type="submit" name="submit" id="submit" class="submit" style="font-size:16px;margin-bottom:0 !important" value=" احصل على كوبون الخصم" > <i class="fa fa-arrow-alt-circle-left fa-2x"></i> 
+           <input type="submit" name="submit" id="submit" class="submit" style="font-size:16px;margin-bottom:0 !important" value=" احصل على كوبون الخصم" > <i class="fa fa-arrow-alt-circle-left fa-2x"></i>
             </div>
             <div class="form-check" >
             <a href="https://drive.google.com/drive/folders/1FJrDLkEZmlzyg7XgpXeHS7t9RNCjkkIX" target="_blank" class="label-agree-term" style="font-weight:bold;font-size:18px" >محتوي الدورات بالتفصيل </a>
         </div>
         </form>
-       
+
         <div class="footer">
         <footer class="footer" style="display: flex;">
         <!-- <a href="https://api.whatsapp.com/send?phone=15551234567&text=I'm%20interested%20in%20your%20car%20for%20sale" class="float" target="_blank">
@@ -175,7 +175,7 @@
         </div>
 </footer>
             </div>
-       
+
     </div>
 
 </div>

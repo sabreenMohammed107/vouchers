@@ -1,5 +1,7 @@
 <?php
 
+use Database\Seeders\CouponsSeeder;
+use Database\Seeders\CoursesTableSeeder;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -11,6 +13,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(CouponSeeder::class);
+        $this->call(CouponsSeeder::class);
+        $this->call(CoursesTableSeeder::class);
     }
 }

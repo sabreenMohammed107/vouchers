@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
-use App\User;
+use App\Models\User;
 class LoginController extends Controller
 {
     /*
@@ -41,18 +41,18 @@ class LoginController extends Controller
 
     //to login without inception
     protected function attemptLogin(Request $request)
-    
+
     {
         $user = User::where('email', $request->email)
             ->where('password', $request->password)
             ->first();
-    
+
         if(!isset($user)){
             return false;
         }
-    
+
         \Auth::login($user);
-    
+
         return true;
     }
 

@@ -22,8 +22,8 @@ class Coupon_dataFactory extends Factory
             'coupon_code' => Str::random(5),
             // 'discount_per' => $this->faker->boolean(60) ? 15 : 20,
             'discount_per' =>  $discountPercentage,
-            'expired_date' => Carbon::parse('2024-05-20'),
+            'expired_date' => Carbon::parse('2025-09-30'),
             'coupon_status' => 1,
         ];
     }
-} 
+}

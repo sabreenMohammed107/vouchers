@@ -5,8 +5,9 @@ use Faker\Generator as Faker;
 use Carbon\Carbon;
 use App\Models\Coupon_data;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Str;
 
-class Coupon_dataFactory extends Factory
+class CouponFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
@@ -25,7 +26,7 @@ class Coupon_dataFactory extends Factory
 return [
         'coupon_code' => $this->strtolower(str_random(5)),
         'discount_per' => (int)$this->$faker->boolean(60) ? 15 : 20,
-        'expired_date' => $this->Carbon::parse('2021-08-25'),
+        'expired_date' => $this->Carbon::parse('2025-08-25'),
         'coupon_status' => 1,
         'name' => $this->faker->name,
         'slug' => Str::slug($this->faker->name),
