@@ -19,22 +19,22 @@ body {
         font-size: 2em;
        }
     .resSpan{
-            
+
             float: left;
             padding-left: 20px;
             font-size: 18px;
-        
+
                 }
     @media only screen and (max-width: 600px) {
         .respo {
             margin: 10px 0 0 10px !important;
         }
         .resSpan{
-            
+
             float: left;
             padding-left: 20px;
             font-size: 10px;
-        
+
                 }
                .faSize{
                 font-size: 1em;
@@ -61,7 +61,7 @@ body {
   <hr>
   <p style="color:#73AD21; font-size:20px"><b>  خصم : </b>{{$randomCoupon->discount_per}} %.</p>
 
-  
+
   <hr>
     <div class="form-submit" style="margin:30px 0;">
                 <a style="text-decoration: none;font-size:16px" href="{{route('home.index')}}" class="submit"  > احصل على كوبون خصم اخر</a>
@@ -78,7 +78,7 @@ body {
         </div>
         <div>
        <span class="resSpan" style="color: #FFF;" >
-        <i style="margin: 3px 10px; padding: 7px 10px;border: 2px solid #161c3b;border-radius: 50%;color: #161c3b;" class="fa fa-phone my-float "></i>01097003465 - 01090873748
+        <i style="margin: 3px 10px; padding: 7px 10px;border: 2px solid #161c3b;border-radius: 50%;color: #161c3b;" class="fa fa-phone my-float "></i> 01090873748
 </span>
 </div>
 </footer>
@@ -86,5 +86,5 @@ body {
 </div>
 
     </div>
-    
+
 @endsection

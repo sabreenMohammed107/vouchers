@@ -154,7 +154,7 @@
            <input type="submit" name="submit" id="submit" class="submit" style="font-size:16px;margin-bottom:0 !important" value=" احصل على كوبون الخصم" > <i class="fa fa-arrow-alt-circle-left fa-2x"></i>
             </div>
             <div class="form-check" >
-            <a href="https://drive.google.com/drive/folders/1FJrDLkEZmlzyg7XgpXeHS7t9RNCjkkIX" target="_blank" class="label-agree-term" style="font-weight:bold;font-size:18px" >محتوي الدورات بالتفصيل </a>
+            <a href="https://drive.google.com/drive/folders/1712H2QuyPLBgu1hqHQ9O-uTU97nIgJOT?usp=sharing" target="_blank" class="label-agree-term" style="font-weight:bold;font-size:18px" >محتوي الدورات بالتفصيل </a>
         </div>
         </form>
 
@@ -170,7 +170,7 @@
         </div>
         <div >
        <span class="resSpan" >
-        <i style="margin: 3px 10px; padding: 7px 10px;border: 2px solid #161c3b;border-radius: 50%;color: #161c3b;" class="fa fa-phone my-float "></i>01097003465 - 01090873748
+        <i style="margin: 3px 10px; padding: 7px 10px;border: 2px solid #161c3b;border-radius: 50%;color: #161c3b;" class="fa fa-phone my-float "></i> 01090873748
 </span>
         </div>
 </footer>
